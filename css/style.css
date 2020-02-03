@@ -1,0 +1,180 @@
+h1{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 72px;
+  color: white;
+}
+
+h2{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+  color: pink;
+}
+
+h3{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  color: pink;
+}
+
+p {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+
+header{
+  text-align: center;
+  background-image: url(/imagespaola-galimberti-Cawp7im-QMY-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  opacity: 1;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  margin-bottom: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.article-body1 {
+  float: center;
+  width: 90%;
+  padding: 10px;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  color: hotpink;
+}
+
+.container1 {
+  width: 90%;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.container2 {
+  width: 90%;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.container3 {
+  width: 90%;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.container4 {
+  width: 90%;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.container5 {
+  width: 90%;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.container6 {
+  width: 90%;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#left {
+  background-color: white;
+  text-align: left;
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #342c30;
+  margin-bottom: 5px;
+}
+
+#right {
+  background-color: #342c30;
+  text-align: right;
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+ul {
+  font-size: 16px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.maincontainer2 {
+
+}
