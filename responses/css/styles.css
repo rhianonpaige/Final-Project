@@ -1,0 +1,22 @@
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#Response1 {
+  width: 500px;
+  padding: 40px;
+  border: 15px solid black;
+}
+
+h1{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  color: black;
+  line-height: 1.2em;
+}
