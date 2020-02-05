@@ -32,7 +32,6 @@ p {
 
 header{
   text-align: center;
-  background-image: url(/imagespaola-galimberti-Cawp7im-QMY-unsplash.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -40,15 +39,15 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 10px;
   opacity: 1;
 }
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
   margin-bottom: 50px;
+  margin: 0;
 }
 
 * {
@@ -74,7 +73,7 @@ body {
   padding: 10px;
 }
 
-.button {
+.button2 {
   background-color: black;
   border: none;
   color: white;
@@ -91,6 +90,25 @@ body {
   margin-bottom: 20px;
 }
 
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: source-code-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button2:hover {
+  color: hotpink;
+}
 .button:hover {
   color: hotpink;
 }
@@ -140,13 +158,12 @@ body {
 #left {
   background-color: white;
   text-align: left;
-  width: 400px;
+  width: 500px;
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
+  font-style: italic;
   color: #342c30;
   margin-bottom: 5px;
 }
@@ -154,52 +171,465 @@ body {
 #right {
   background-color: #342c30;
   text-align: right;
-  width: 400px;
+  width: 500px;
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.maincontainer {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  padding-bottom: 50px;
+}
+
+.maincontainer2 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding-top: 25px;
+
+}
+
+.maincontainer3 {
+  align-content: center;
+  max-width: 600px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.maincontainer4 {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#chewyh1 {
+  text-align: center;
+}
+
+.AMGheader {
+  background-image: url("/images/AMG_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+ul {
+  list-style-type: numbered;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
   color: white;
-  margin-bottom: 5px;
 }
 
-ul {
-  font-size: 16px;
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 20px;
-  color: white;
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#Response1 {
+  width: 100%;
+  padding: 40px;
+  border: 15px solid black;
+  margin-bottom: 20px;
+  align-content: center;
+}
+
+#Response2 {
+  width: 100%;
+  padding: 40px;
+  border: 15px solid hotpink;
+  background-color: black;
   margin-bottom: 20px;
 }
 
-.maincontainer2 {
-
+#Response3 {
+  width: 100%;
+  padding: 40px;
+  border: 15px solid red;
+  margin-bottom: 20px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+
+
+p{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+  line-height: 1.5em;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+#whiteText {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  line-height: 1.5em;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: hotpink;
+#whiteH1 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  color: white;
+  line-height: 1.2em;
+}
+
+#blackH1 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  color: black;
+  line-height: 1.2em;
+}
+
+#Res3 {
+  font-family: Courier, 'Courier New', monospace;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+#CourierH1 {
+  font-family: Courier, 'Courier New', monospace;
+  font-size: 36px;
+  font-style: bold;
+  line-height: 1.2em;
+}
+
+#blackCourier {
+  font-family: Courier, 'Courier New', monospace;
+  font-size: 36px;
+  font-style: bold;
+  color: black;
+  line-height: 1.2em;
+}
+
+blockquote {
+  font-family: Courier, 'Courier New', monospace;
+  font-size: 18px;
+  font-style: bold;
+  color: red;
+  line-height: 1.5em;
+}
+
+.header2 {
+  text-align: center;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  opacity: 1;
+}
+
+.container1 {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: left;
+}
+
+#myDIV6 {
+  margin-bottom: 30px;
+}
+
+#chew1 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightpink;
+  margin-top: 20px;
+
+}
+
+#chew2 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+#chew3 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightpink;
+  margin-top: 20px;
+}
+
+#chew4 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightpink;
+  margin-top: 20px;
+}
+
+#chew5 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightpink;
+  margin-top: 20px;
+}
+
+#chew6 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightpink;
+  margin-top: 20px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid hotpink;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+.AMGcontainer {
+  background-image: url("../images/AMG_background.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.appsH1 {
+  font-family: source-code-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+br {
+  font-family: source-code-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wakeup {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: black;
+}
+
+.walktime {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: black;
+}
+
+.naptime {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: black;
+}
+
+.shopping {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: black;
+}
+
+.ChewCanadian {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: black;
+}
+
+.ChewyCookies {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: black;
+}
+
+#myDIV {
+  font-family: source-code-pro, monospace;
+}
+
+.aboutmecontainer{
+  background-color: pink;
+}
+
+code {
+  background-color: white;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#AMGh1 {
+  font-family: louvette-text, serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+
+#aboutRhianon {
+  align-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#aboutParagraph {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  font-size: 18px;
+  max-width: 500px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  position: center;
 }

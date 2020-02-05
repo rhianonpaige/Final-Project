@@ -59,3 +59,59 @@ function revealContent5() {
     x.style.display = "none";
   }
 }
+
+///FOR TIMELINE///
+
+function reveal1() {
+  var x = document.getElementById("chew1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function reveal2() {
+  var x = document.getElementById("chew2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function reveal3() {
+  var x = document.getElementById("chew3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function reveal4() {
+  var x = document.getElementById("chew4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function reveal5() {
+  var x = document.getElementById("chew5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function reveal6() {
+  var x = document.getElementById("chew6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
